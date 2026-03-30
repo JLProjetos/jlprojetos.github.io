@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL Projetos | Engenharia e Energia Solar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --vinho: #800000; --dark: #1a1a1a; --gold: #d4af37; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; color: #333; line-height: 1.6; overflow-x: hidden; }
+        header { background: white; padding: 15px 5%; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .logo { font-size: 22px; font-weight: bold; color: var(--vinho); text-decoration: none; letter-spacing: 1px; }
+        .nav-links a { margin-left: 25px; text-decoration: none; color: var(--dark); font-weight: 600; font-size: 14px; transition: 0.3s; }
+        .nav-links a:hover { color: var(--vinho); }
+        .btn-portal { background: var(--vinho); color: white !important; padding: 10px 20px; border-radius: 4px; border: 1px solid var(--vinho); }
+        .hero { 
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1509391366360-fe5bb62697b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
+            height: 70vh; background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; text-align: center; color: white; padding: 0 20px; 
+        }
+        .hero-content h1 { font-size: 3rem; margin-bottom: 20px; text-transform: uppercase; letter-spacing: 2px; }
+        .btn-cta { background: var(--gold); color: var(--dark); padding: 15px 35px; text-decoration: none; border-radius: 4px; font-weight: bold; text-transform: uppercase; transition: 0.3s; }
+        .services { padding: 80px 5%; text-align: center; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 40px; }
+        .card { padding: 40px; border: 1px solid #eee; border-radius: 8px; transition: 0.4s; background: #fff; }
+        .card i { font-size: 45px; color: var(--vinho); margin-bottom: 25px; }
+        footer { background: var(--dark); color: #888; padding: 50px 5%; text-align: center; font-size: 14px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="#" class="logo">JL PROJETOS</a>
+    <nav class="nav-links">
+        <a href="#servicos">SERVIÇOS</a>
+        <a href="https://script.google.com/macros/s/AKfycbwo22z3ncQZRWUiNcV98UmTyk_urfHQQNKiT5U5CoXAamZxTOZvoXW9pLG0a_TSVfa4tA/exec" class="btn-portal">
+            <i class="fas fa-user-lock"></i> ÁREA DO CLIENTE
+        </a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Engenharia & Energia Solar</h1>
+        <p>Especialistas em projetos elétricos, homologação junto às concessionárias e consultoria técnica.</p>
+        <a href="#servicos" class="btn-cta">Conhecer Soluções</a>
+    </div>
+</section>
+
+<section id="servicos" class="services">
+    <h2>Nossas Soluções</h2>
+    <div class="grid">
+        <div class="card">
+            <i class="fas fa-solar-panel"></i>
+            <h3>Homologação</h3>
+            <p>Gestão do processo burocrático junto à concessionária.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-bolt"></i>
+            <h3>Projetos Elétricos</h3>
+            <p>Elaboração de projetos seguindo as normas ABNT e das distribuidoras.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-clipboard-check"></i>
+            <h3>Consultoria</h3>
+            <p>Análise de viabilidade e otimização de geração.</p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 JL Projetos. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
